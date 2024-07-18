@@ -1,15 +1,18 @@
 @font-face {
-    font-family: 'Nazi';
-    src: url('../fonts/Nazicircle.ttf');
+    font-family: Nazi;
+    src: url(../fonts/Nazicircle.ttf);
     font-weight: 200;
 }
 @font-face{
-    font-family:'Nazanin'
-    src: url('../fonts/Nazidimonds.ttf');
+    font-family:Nazi;
+    src: url(../fonts/Nazidimonds.ttf);
     font-weight: 400;
 }
 
-*{box-sizing: border-box;color: #fff;}
+*{ 
+    box-sizing: border-box;
+    color: #fff;font-family: Nazi
+    ;font-weight: 200;}
 
 
 body{margin: 0;}
@@ -26,6 +29,9 @@ ul{
 a{
     text-decoration: none;
 }
+
+
+/*header*/
 .header{
          width: 100%;
          height: 65px;
@@ -72,6 +78,9 @@ a{
 .login-btn:hover{
    color: violet;
 }
+
+
+/*page intro*/
 .page-intro{
     width: 100%;
     height: 400px;
@@ -79,7 +88,6 @@ a{
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(68,68,68,1) 35%, rgba(124,124,124,1) 100%);
 }
 .page-intro-left{
-    padding: 40px 55px;
     float: left;
     width: 50%;
     height: 400px;
@@ -92,6 +100,7 @@ a{
 }
 .page-intro-right h1{
     font-size: 60px;
+    padding-right: 15px;
 }
 .page-intro-right-btns{
     margin: 0 auto;
@@ -117,3 +126,35 @@ a{
     width: auto;
     height: 100%;
 }
+.new-posts-body{
+    width: 100%;
+    height: 1000px;
+}
+.new-posts-body .container{
+   width: 100%;
+   height: 500px;
+   color: black;
+}
+
+
+/*posts*/
+.container h2{
+    width: 100%;
+    height: 30px;
+    color: black;
+    text-align: right;
+    padding-right: 15px;
+    font-weight: 400;
+}
+.new-post{
+    width: 25%;
+    height: auto;
+    float: right;
+    padding: 15px;
+}
+.new-post-card{
+    width: 100%;
+    height: 300px;
+    background-color: palevioletred;
+}
+
