@@ -63,7 +63,7 @@ a{
     font-size: 18px;
 }
 .header-nav li a:hover{
-    color:violet;
+    color:purple;
 }
 .login-btn{
     background-color: black;
@@ -76,7 +76,7 @@ a{
     outline: none;
 }
 .login-btn:hover{
-   color: violet;
+   color: purple;
 }
 
 
@@ -120,7 +120,7 @@ a{
     margin-left: 8px;
 }
 .page-intro-right-btn:hover{
-    color: violet;
+    color: purple;
 }
 .page-intro-left img{
     width: auto;
@@ -141,20 +141,23 @@ a{
 .container h2{
     width: 100%;
     height: 30px;
-    color: black;
     text-align: right;
     padding-right: 15px;
     font-weight: 400;
+    background-color:purple;
 }
 .new-post{
     width: 25%;
-    height: auto;
+    height:500px;
     float: right;
-    padding: 15px;
+    padding-left: 20px;
 }
 .new-post-card{
     width: 100%;
-    height: 300px;
-    background-color: palevioletred;
+    height: 350px;
+    box-shadow: 0 2px 3px #bbb;
 }
-
+.new-post-pic img{
+    width: 100%;
+    height: 75%;
+}
