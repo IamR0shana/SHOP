@@ -141,6 +141,7 @@ a{
 .container h2{
     width: 100%;
     height: 30px;
+    margin-left: 6px;
     text-align: right;
     padding-right: 15px;
     font-weight: 400;
@@ -155,9 +156,80 @@ a{
 .new-post-card{
     width: 100%;
     height: 350px;
-    box-shadow: 0 2px 3px #bbb;
+    box-shadow: 0 1px 3px #bbb;
 }
 .new-post-pic img{
     width: 100%;
-    height: 75%;
+    height: 270px;
+}
+.new-post-body{
+    padding: 10px;
+    direction: rtl;
+}
+
+.new-post-title{
+    float: right;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+.new-post-price{
+    color: #777;
+    float: left;
+    margin: 0;
+    padding-top: 5px;
+    font-size: 16px;   
+    text-decoration: line-through;
+}
+.new-post-price-off{
+    color: #777;
+    float: left;
+    margin: 0;
+    font-size: 16px;   
+}
+.new-post-discription{
+    color: #777;
+    float: right;
+    margin: 0;
+    font-size: 16px;  
+    clear: both; 
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1200px){
+    .new-post{
+        width: 50%;
+    }
+    .container{
+        padding: 0 200px;
+    }
+
+}
+@media screen and (max-width:950px){
+
+    .container{
+        padding: 0 60px;
+    }
+
+}
+@media screen and (max-width:650px){
+    .new-post{
+        width: 100%;
+    }
+    .container{
+        padding: 0 200px;
+    }
+}
+
+@media screen and (max-width:400px){
+    
+    .container{
+        padding: 0 ;
+    }
 }
