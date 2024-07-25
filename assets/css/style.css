@@ -129,10 +129,11 @@ a{
 
 .new-posts-body{
     width: 100%;
+    background-color: #ff0000;
 }
 .new-posts-body .container{
    width: 100%;
-   height: 370px;
+   height: 400px;
    color: black;
 }
 
@@ -197,23 +198,37 @@ a{
 }
 
 /*home-ad*/
+.home-ad{
+    width: 100%;
+    height: 100px;
+    background-color: #fb00ff;
+
+}
 .home-ad-right{
-    background-color: aqua;
     width: 75%;
     height: 300px;
     float: right;
-   
-    
+    padding: 15px;
 }
 .home-ad-left{
-    background-color: crimson;
     width: 25%;
     height: 300px;
     float: left;
+    padding: 15px;
+
 }
+.home-ad-left img{
+width: 100%;
+height: 100%;
+}
+.home-ad-right img{
+    width: 100%;
+    height: 100%;
+    }
+
 .new-posts{
     width: 100%;
-    height: 1000px;
+
 }
 
 
