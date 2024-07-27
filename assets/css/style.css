@@ -129,19 +129,15 @@ a{
 
 .new-posts-body{
     width: 100%;
-    background-color: #ff0000;
 }
 .new-posts-body .container{
    width: 100%;
-   height: 400px;
-   color: black;
 }
 
 
 /*posts*/
-.container h2{
+.new-posts-body .container h2{
     width: 100%;
-    height: 30px;
     margin-left: 6px;
     text-align: right;
     padding-right: 15px;
@@ -200,35 +196,40 @@ a{
 /*home-ad*/
 .home-ad{
     width: 100%;
-    height: 100px;
-    background-color: #fb00ff;
-
+    height: 660px;
 }
 .home-ad-right{
     width: 75%;
     height: 300px;
     float: right;
-    padding: 15px;
+    padding: 15px;    
 }
 .home-ad-left{
     width: 25%;
     height: 300px;
     float: left;
     padding: 15px;
-
 }
 .home-ad-left img{
-width: 100%;
-height: 100%;
+    width: 100%;
+    height: 100%;
 }
 .home-ad-right img{
     width: 100%;
     height: 100%;
     }
 
-.new-posts{
-    width: 100%;
-
+.most-sales h2{
+    padding: 0 15px;
+    font-size: 29px;
+    font-weight: 400px;
+    margin: 20px 0;
+}
+.most-sales-item{
+    float: right;
+    width: calc(100% / 3);
+    height: 390px;
+    padding: 20px;
 }
 
 
@@ -239,15 +240,24 @@ height: 100%;
 
 
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1150px){
     .new-post{
         width: 50%;
     }
     .container{
         padding: 0 200px;
     }
-
+    .home-ad-left{
+        display: none;
+    }
+    .home-ad-right{
+        width: 100%;
+    }
+    .most-sales-item{
+        width: 100%;
+    }
 }
+
 @media screen and (max-width:950px){
 
     .container{
@@ -255,6 +265,7 @@ height: 100%;
     }
 
 }
+
 @media screen and (max-width:650px){
     .new-post{
         width: 100%;
